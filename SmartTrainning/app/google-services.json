@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "916171809517",
+    "firebase_url": "https://smarttrainning-fc2c2.firebaseio.com",
+    "project_id": "smarttrainning-fc2c2",
+    "storage_bucket": "smarttrainning-fc2c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:916171809517:android:682c7e657675bd72",
+        "android_client_info": {
+          "package_name": "com.example.lucas.smarttrainning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "916171809517-rlosupdilp486fem904u6kfa3ocvdp56.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lucas.smarttrainning",
+            "certificate_hash": "13a94a9a6192937fdf18076b8383508a8bf56c9e"
+          }
+        },
+        {
+          "client_id": "916171809517-c24pb3fd8daqikv9f0is4vuoeq5gkrpe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2TsHFmEZ942dkziRMHZW6JhUR0NbUO48"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "916171809517-c24pb3fd8daqikv9f0is4vuoeq5gkrpe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

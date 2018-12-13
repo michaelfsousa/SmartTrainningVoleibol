@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="8dp"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/ivInicial"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/tvInicial1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/ivInicial"
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:text="Bem vindo ao Smart Trainning Volleyball"
+        android:textColor="@color/colorTextInstr"/>
+
+    <TextView
+        android:id="@+id/tvInicial2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:layout_below="@id/tvInicial1"
+        android:layout_centerHorizontal="true"
+        android:text="Instruções:"
+        android:textStyle="bold"
+        android:textColor="@color/colorTextInstr" />
+
+    <TextView
+        android:id="@+id/tvInstrucoes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/tvInicial2"
+        android:layout_centerHorizontal="true"
+        android:text="@string/instrucoes"
+        android:textColor="@color/colorTextInstr" />
+
+    <Button
+        android:id="@+id/btIniciar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Iniciar Treino"
+        android:layout_below="@id/tvInstrucoes"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textColor="#FFF"
+        android:background="@color/colorPrimary"
+        />
+
+    <ImageButton
+        android:id="@+id/btSensores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:background="@mipmap/ic_sensor"
+        />
+
+</RelativeLayout>

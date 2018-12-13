@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Smart Trainning</string>
+    <string name="instrucoes">
+        1. Clique em Iniciar Treino para iniciar a leitura dos dados.\n
+        2. Os dados serão mostrados de acordo com o andamento do treinamento.\n
+        3. Para ter acesso ao histórico mais detalhado, clique em Últimos Movimentos.
+    </string>
+</resources>
